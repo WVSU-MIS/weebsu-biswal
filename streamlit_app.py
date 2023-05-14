@@ -33,10 +33,10 @@ def app():
         urllib.request.urlretrieve(output, 'output.png')
         img = Image.open('output.png')
         img_array = np.array(img)
-        plt.figure(figsize=(9,9))
+        fig = plt.figure(figsize=(9,9))
         ax = plt.axes(xticks=[], yticks=[])
         ax.imshow(img_array)
-        st.pyplot(ax)
+        st.pyplot(fig)
         
     st.write('\n\n\n© 2023 West Visayas State University - Management Information System Office.')
     st.write('\n\n\nDisclaimer: Weebsu may produce inappropriate images. Pleae avoid using prompts that constitute unlawful use of AI.')
