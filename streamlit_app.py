@@ -39,7 +39,7 @@ def app():
         st.pyplot(fig)
         
     st.write('\n\n\n© 2023 West Visayas State University - Management Information System Office.')
-    st.write('\n\n\nDisclaimer: Weebsu may produce inappropriate images. Pleae avoid using prompts that constitute unlawful use of AI.')
+    st.write('\n\n\nDisclaimer: Weebsu may produce inappropriate images. Please avoid using prompts that constitute unlawful use of AI.')
     text = "*WVSU at the forefront of AI-research in Western Visayas.*"
     st.markdown(text)
      
