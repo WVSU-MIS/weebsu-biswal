@@ -25,7 +25,7 @@ def app():
     st.header("AI Generated Images")
     st.write('Thank you for appreciating my chatting skills! But my neurons can do other useful things besides chat. For instance, I can help you visualize challenging ideas and concepts.') 
     # Create a multiline text field
-    user_input = st.text_area('Describe the image with as much details as possible. Try "deep learning using artificial intelligence"', height=5)
+    user_input = st.text_area('Describe the image with as much details as possible. Try "artificial intelligence using deep learning neural networks"', height=5)
 
     # Display the text when the user submits the form
     if st.button('Submit'):
