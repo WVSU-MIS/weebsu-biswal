@@ -14,7 +14,7 @@ def generate_image(input_string):
   response = openai.Image.create(
     prompt=input_string,
     n=1,
-    size="512x512"
+    size="256x256"
   )
   image_url = response['data'][0]['url']
   return image_url
